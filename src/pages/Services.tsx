@@ -1,10 +1,8 @@
-
 import { useEffect } from "react";
 import { 
-  Roof, 
+  House, 
   Fence, 
-  Home, 
-  Window, 
+  Wind, 
   Droplet, 
   CheckCircle 
 } from "lucide-react";
@@ -25,7 +23,7 @@ const services = [
       "Prevents costly repairs from moisture damage",
       "Safe for all roof types including asphalt, tile, and metal"
     ],
-    icon: Roof,
+    icon: House,
     image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3",
     color: "bg-arbor-primary"
   },
@@ -55,7 +53,7 @@ const services = [
       "Prevents gutter damage from excessive weight",
       "Extends the lifespan of your gutter system"
     ],
-    icon: Home,
+    icon: House,
     image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3",
     color: "bg-arbor-accent"
   },
@@ -70,7 +68,7 @@ const services = [
       "Extends window lifespan by removing corrosive substances",
       "Professional tools reach high and difficult windows safely"
     ],
-    icon: Window,
+    icon: Wind,
     image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3",
     color: "bg-arbor-dark"
   },
@@ -85,7 +83,7 @@ const services = [
       "Prepares surfaces for painting or refinishing",
       "Removes cobwebs, insect debris, and bird droppings"
     ],
-    icon: Home,
+    icon: House,
     image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3",
     color: "bg-arbor-primary"
   },
@@ -107,7 +105,6 @@ const services = [
 ];
 
 const Services = () => {
-  // Scroll animation effect
   useEffect(() => {
     const handleScroll = () => {
       const reveals = document.querySelectorAll(".reveal, .reveal-left, .reveal-right");
@@ -133,7 +130,6 @@ const Services = () => {
     <div className="min-h-screen">
       <Navbar />
       
-      {/* Page Header */}
       <div className="pt-24 pb-12 bg-arbor-dark">
         <div className="container mx-auto px-4 text-center text-white">
           <h1 className="text-4xl font-bold mb-4">Our Services</h1>
@@ -143,7 +139,6 @@ const Services = () => {
         </div>
       </div>
       
-      {/* Service Listing */}
       <div className="py-16">
         <div className="container mx-auto px-4">
           {services.map((service, index) => (
@@ -157,7 +152,6 @@ const Services = () => {
               <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
                 index % 2 !== 0 ? "lg:flex-row-reverse" : ""
               }`}>
-                {/* Image */}
                 <div className="overflow-hidden rounded-lg shadow-lg">
                   <img 
                     src={service.image} 
@@ -166,7 +160,6 @@ const Services = () => {
                   />
                 </div>
                 
-                {/* Content */}
                 <div className={`${index % 2 !== 0 ? "lg:text-right" : ""}`}>
                   <div className="flex items-center mb-4">
                     <div 
@@ -210,7 +203,6 @@ const Services = () => {
         </div>
       </div>
       
-      {/* CTA Section */}
       <div className="py-16 bg-gradient-blue text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Property?</h2>

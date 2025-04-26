@@ -1,11 +1,9 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { 
-  Roof, 
+  House, 
   Fence, 
-  Home, 
-  Window, 
+  Wind, 
   Droplet,
   ArrowRight
 } from "lucide-react";
@@ -15,7 +13,7 @@ const services = [
     id: 1,
     name: "Roof Washing",
     description: "Low-pressure soft wash to gently remove mold, algae, and debris without damaging your roof's surface.",
-    icon: Roof,
+    icon: House,
     color: "bg-arbor-primary",
     link: "/services#roof-washing"
   },
@@ -31,7 +29,7 @@ const services = [
     id: 3,
     name: "Gutter Cleaning",
     description: "Clear debris and buildup from your gutters to ensure proper water flow and prevent damage.",
-    icon: Home,
+    icon: House,
     color: "bg-arbor-accent",
     link: "/services#gutter-cleaning"
   },
@@ -39,7 +37,7 @@ const services = [
     id: 4,
     name: "Window Cleaning",
     description: "Professional window cleaning to remove streaks, water spots, and grime for crystal clear views.",
-    icon: Window,
+    icon: Wind,
     color: "bg-arbor-dark",
     link: "/services#window-cleaning"
   },
@@ -47,7 +45,7 @@ const services = [
     id: 5,
     name: "House Washing",
     description: "Complete exterior cleaning that removes dirt, mold, and mildew to protect your home's appearance.",
-    icon: Home,
+    icon: House,
     color: "bg-arbor-primary",
     link: "/services#house-washing"
   },
