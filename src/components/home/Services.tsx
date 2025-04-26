@@ -63,9 +63,9 @@ const Services = () => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
 
   return (
-    <section id="services" className="section-container">
+    <section id="services" className="section-container bg-arbor-light">
       <div className="text-center mb-12">
-        <h2 className="section-title">Our Services</h2>
+        <h2 className="section-title text-arbor-dark">Our Services</h2>
         <p className="max-w-2xl mx-auto text-lg text-gray-600">
           We offer comprehensive power washing solutions to maintain and enhance 
           your property's appearance and value.
@@ -80,6 +80,7 @@ const Services = () => {
               bg-white rounded-lg shadow-md overflow-hidden
               transform transition-all duration-300
               ${hoveredId === service.id ? "scale-[1.02]" : ""}
+              hover:shadow-lg
             `}
             onMouseEnter={() => setHoveredId(service.id)}
             onMouseLeave={() => setHoveredId(null)}
@@ -114,6 +115,12 @@ const Services = () => {
         <Link to="/services" className="btn-primary">
           View All Services
         </Link>
+      </div>
+
+      <div className="mt-16 text-center">
+        <p className="text-lg text-arbor-dark italic">
+          "Your property deserves the best care, and that's exactly what we deliver."
+        </p>
       </div>
     </section>
   );

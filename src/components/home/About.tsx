@@ -1,11 +1,10 @@
-
 import { CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const About = () => {
   const benefits = [
     "Eco-friendly cleaning solutions",
-    "Fully insured and licensed professionals",
+    "Fully insured and licensed professionals", 
     "Latest pressure washing technology",
     "Surface-appropriate techniques",
     "Affordable and transparent pricing",
@@ -19,17 +18,29 @@ const About = () => {
           {/* Text Content */}
           <div className="order-2 lg:order-1">
             <h2 className="section-title">About Arbor Power Washing</h2>
-            <p className="text-lg text-gray-600 mb-6">
-              At Arbor Power Washing, we're committed to preserving and enhancing 
-              your property's appearance and value through our professional 
-              cleaning services.
-            </p>
-            <p className="text-gray-600 mb-8">
-              Founded on the principles of quality, integrity, and environmental 
-              responsibility, we use industry-leading techniques and eco-friendly 
-              products to deliver exceptional results without harming your surfaces 
-              or the environment.
-            </p>
+            <div className="mb-6">
+              <p className="text-lg text-gray-600 mb-4">
+                Founded by a young entrepreneur with a vision for excellence, 
+                Arbor Power Washing represents the perfect blend of youthful 
+                innovation and professional expertise.
+              </p>
+              <div className="bg-arbor-light p-6 rounded-lg border-l-4 border-arbor-primary mb-6">
+                <h3 className="text-xl font-semibold mb-3 text-arbor-dark">A Story of Young Ambition</h3>
+                <p className="text-gray-600 italic">
+                  "I started Arbor Power Washing at age 15 with a simple goal: 
+                  to provide exceptional cleaning services that protect and enhance 
+                  our customers' properties. Today, at 17, that vision has grown into 
+                  a full-service operation, proving that passion and dedication know 
+                  no age limit."
+                </p>
+              </div>
+              <p className="text-gray-600">
+                Our commitment to using eco-friendly solutions and industry-leading 
+                techniques has made us a trusted name in property maintenance. Every 
+                service we provide reflects our dedication to excellence and 
+                customer satisfaction.
+              </p>
+            </div>
             
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4 text-arbor-dark">Why Choose Us?</h3>
@@ -48,7 +59,7 @@ const About = () => {
             </Link>
           </div>
           
-          {/* Image */}
+          {/* Image and Stats */}
           <div className="order-1 lg:order-2 relative">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
@@ -70,6 +81,17 @@ const About = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Customer Service Banner */}
+      <div className="mt-16 bg-gradient-to-r from-arbor-primary to-arbor-secondary text-white py-12">
+        <div className="container mx-auto px-4 text-center">
+          <h3 className="text-2xl font-semibold mb-4">Our Customer Service Promise</h3>
+          <p className="text-lg max-w-3xl mx-auto">
+            At Arbor Power Washing, customer service isn't just a promise — it's the 
+            foundation of everything we do. Your satisfaction is guaranteed.
+          </p>
         </div>
       </div>
     </section>
