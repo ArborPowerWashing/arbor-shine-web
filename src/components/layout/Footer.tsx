@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Clock, ArrowRight, Facebook, Instagram, Twitter } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, ArrowRight, Facebook, Instagram, Twitter, Star } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -19,13 +19,26 @@ const Footer = () => {
                 className="hover:text-arbor-secondary transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.instagram.com/arborpowerwashing/?hl=en" target="_blank" rel="noopener noreferrer"
                 className="hover:text-arbor-secondary transition-colors">
                 <Instagram size={20} />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                 className="hover:text-arbor-secondary transition-colors">
                 <Twitter size={20} />
+              </a>
+            </div>
+            
+            {/* Google Review Button */}
+            <div className="mt-6">
+              <a 
+                href="https://www.google.com/search?q=Arbor+power+Washing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center bg-white text-arbor-dark py-2 px-4 rounded-md hover:bg-gray-200 transition-colors"
+              >
+                <Star className="mr-2 text-yellow-500" size={18} />
+                Leave us a Google Review
               </a>
             </div>
           </div>
@@ -80,11 +93,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <Phone size={20} className="mr-3 mt-1 text-arbor-secondary" />
-                <span>(555) 123-4567</span>
+                <span>813-778-3799</span>
               </li>
               <li className="flex items-start">
                 <Mail size={20} className="mr-3 mt-1 text-arbor-secondary" />
-                <span>info@arborpowerwashing.com</span>
+                <span>arborpowerwashingllc@gmail.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 mt-1 text-arbor-secondary" />
@@ -93,9 +106,9 @@ const Footer = () => {
               <li className="flex items-start">
                 <Clock size={20} className="mr-3 mt-1 text-arbor-secondary" />
                 <div>
-                  <p>Mon-Fri: 8am - 6pm</p>
-                  <p>Sat: 9am - 4pm</p>
-                  <p>Sun: Closed</p>
+                  <p>Sunday–Thursday: 8AM–7PM</p>
+                  <p>Friday: Closed</p>
+                  <p>Saturday: 10AM–8PM</p>
                 </div>
               </li>
             </ul>

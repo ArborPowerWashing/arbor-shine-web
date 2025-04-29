@@ -50,11 +50,11 @@ const Hero = () => {
           </div>
         </div>
         
-        {/* Scroll Down Indicator */}
+        {/* Scroll Down Indicator - Center the text */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce-subtle">
           <a 
             href="#services" 
-            className="flex flex-col items-center justify-center text-white/80 hover:text-white transition-colors"
+            className="flex flex-col items-center justify-center text-white/80 hover:text-white transition-colors text-center"
           >
             <span className="text-sm mb-2">Explore Our Services</span>
             <svg 

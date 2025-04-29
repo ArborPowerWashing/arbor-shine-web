@@ -3,7 +3,7 @@ import { useState, FormEvent } from "react";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 import QuoteButton from "../components/ui/QuoteButton";
-import { Phone, Mail, MapPin, Clock, Send, Loader2 } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Send, Loader2, Star } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -186,7 +186,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-arbor-dark">Phone</h3>
-                    <p className="text-gray-600">(555) 123-4567</p>
+                    <p className="text-gray-600">813-778-3799</p>
                     <p className="text-sm text-gray-500">For inquiries and scheduling</p>
                   </div>
                 </div>
@@ -197,7 +197,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-arbor-dark">Email</h3>
-                    <p className="text-gray-600">info@arborpowerwashing.com</p>
+                    <p className="text-gray-600">arborpowerwashingllc@gmail.com</p>
                     <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
                   </div>
                 </div>
@@ -220,16 +220,27 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-arbor-dark">Business Hours</h3>
                     <div className="grid grid-cols-2 gap-x-4 text-gray-600">
-                      <p>Monday - Friday</p>
-                      <p>8:00 AM - 6:00 PM</p>
-                      <p>Saturday</p>
-                      <p>9:00 AM - 4:00 PM</p>
-                      <p>Sunday</p>
+                      <p>Sunday–Thursday</p>
+                      <p>8:00 AM – 7:00 PM</p>
+                      <p>Friday</p>
                       <p>Closed</p>
+                      <p>Saturday</p>
+                      <p>10:00 AM – 8:00 PM</p>
                     </div>
                   </div>
                 </div>
               </div>
+              
+              {/* Google Review Button */}
+              <a 
+                href="https://www.google.com/search?q=Arbor+power+Washing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-white border border-gray-300 shadow-sm rounded-md flex items-center justify-center py-3 px-4 text-arbor-dark hover:bg-gray-50 transition-colors mb-6"
+              >
+                <Star className="mr-2 text-yellow-500" size={20} />
+                <span className="font-medium">Leave us a Google Review</span>
+              </a>
               
               {/* Map */}
               <div className="rounded-lg overflow-hidden shadow-lg h-64">

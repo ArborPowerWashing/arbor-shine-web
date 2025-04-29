@@ -22,8 +22,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-arbor-dark">Phone</h3>
-                  <p className="text-gray-600">(555) 123-4567</p>
-                  <p className="text-sm text-gray-500">Mon-Sat: 8am - 6pm</p>
+                  <p className="text-gray-600">813-778-3799</p>
+                  <p className="text-sm text-gray-500">For service inquiries</p>
                 </div>
               </div>
 
@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-arbor-dark">Email</h3>
-                  <p className="text-gray-600">info@arborpowerwashing.com</p>
+                  <p className="text-gray-600">arborpowerwashingllc@gmail.com</p>
                   <p className="text-sm text-gray-500">We'll respond within 24 hours</p>
                 </div>
               </div>
