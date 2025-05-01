@@ -25,8 +25,8 @@ const galleryItems = [
     id: 3,
     title: "Driveway Cleaning",
     category: "Driveway",
-    beforeImage: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3",
-    afterImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3"
+    beforeImage: "/lovable-uploads/89c0a564-9f64-4e84-828e-f104b1260e78.png",
+    afterImage: "/lovable-uploads/89c0a564-9f64-4e84-828e-f104b1260e78.png"
   },
   {
     id: 4,
@@ -46,8 +46,8 @@ const galleryItems = [
     id: 6,
     title: "Sidewalk Restoration",
     category: "Concrete",
-    beforeImage: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3",
-    afterImage: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3"
+    beforeImage: "/lovable-uploads/89c0a564-9f64-4e84-828e-f104b1260e78.png",
+    afterImage: "/lovable-uploads/89c0a564-9f64-4e84-828e-f104b1260e78.png"
   }
 ];
 

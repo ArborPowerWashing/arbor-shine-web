@@ -100,7 +100,7 @@ const services = [
       "Dramatically improves your property's first impression"
     ],
     icon: Droplet,
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3",
+    image: "/lovable-uploads/89c0a564-9f64-4e84-828e-f104b1260e78.png",
     color: "bg-arbor-secondary"
   },
 ];
