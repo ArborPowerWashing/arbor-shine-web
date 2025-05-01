@@ -40,7 +40,7 @@ const services = [
       "Improves property appearance instantly"
     ],
     icon: Fence,
-    image: "/lovable-uploads/9354ac1f-520a-4685-b5be-5869daf60ea5.png",
+    image: "/lovable-uploads/e9aa0fba-8fb7-40d4-8186-de08054030f5.png",
     color: "bg-arbor-secondary"
   },
   {
@@ -85,7 +85,7 @@ const services = [
       "Removes cobwebs, insect debris, and bird droppings"
     ],
     icon: House,
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3",
+    image: "/lovable-uploads/e9aa0fba-8fb7-40d4-8186-de08054030f5.png",
     color: "bg-arbor-primary"
   },
   {

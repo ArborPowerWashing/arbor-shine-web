@@ -18,8 +18,8 @@ const galleryItems = [
     id: 2,
     title: "Fence Restoration",
     category: "Fence",
-    beforeImage: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3",
-    afterImage: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3"
+    beforeImage: "/lovable-uploads/e9aa0fba-8fb7-40d4-8186-de08054030f5.png",
+    afterImage: "/lovable-uploads/e9aa0fba-8fb7-40d4-8186-de08054030f5.png"
   },
   {
     id: 3,
@@ -32,8 +32,8 @@ const galleryItems = [
     id: 4,
     title: "House Washing",
     category: "House",
-    beforeImage: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3",
-    afterImage: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3"
+    beforeImage: "/lovable-uploads/e9aa0fba-8fb7-40d4-8186-de08054030f5.png",
+    afterImage: "/lovable-uploads/e9aa0fba-8fb7-40d4-8186-de08054030f5.png"
   },
   {
     id: 5,
