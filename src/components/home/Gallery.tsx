@@ -17,8 +17,8 @@ const galleryItems = [
     id: 2,
     title: "Fence Restoration",
     description: "Removing years of dirt and mildew",
-    beforeImage: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3",
-    afterImage: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3",
+    beforeImage: "/lovable-uploads/9354ac1f-520a-4685-b5be-5869daf60ea5.png",
+    afterImage: "/lovable-uploads/9354ac1f-520a-4685-b5be-5869daf60ea5.png",
     category: "Fence"
   },
   {
