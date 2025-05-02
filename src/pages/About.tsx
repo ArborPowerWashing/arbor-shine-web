@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/layout/Navbar";
@@ -111,7 +110,7 @@ const About = () => {
               {
                 icon: Leaf,
                 title: "Environmental Care",
-                description: "We use eco-friendly cleaning solutions and techniques that are effective yet safe for people, pets, and plants."
+                description: "We take precautionary measures to protect vegetation and landscaping during our work, using proper containment methods and careful application techniques to prevent environmental damage."
               }
             ].map((value, index) => (
               <div 
