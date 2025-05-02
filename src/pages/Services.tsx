@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { 
   House, 
@@ -25,7 +24,7 @@ const services = [
       "Safe for all roof types including asphalt, tile, and metal"
     ],
     icon: House,
-    image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3",
+    image: "/lovable-uploads/d16ab718-56f8-4000-9958-57fc7233fdc3.png",
     color: "bg-arbor-primary"
   },
   {
@@ -55,7 +54,7 @@ const services = [
       "Extends the lifespan of your gutter system"
     ],
     icon: House,
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3",
+    image: "/lovable-uploads/d16ab718-56f8-4000-9958-57fc7233fdc3.png",
     color: "bg-arbor-accent"
   },
   {
