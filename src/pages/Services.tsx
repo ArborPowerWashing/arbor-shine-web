@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import { 
   House, 
@@ -39,7 +40,7 @@ const services = [
       "Improves property appearance instantly"
     ],
     icon: Fence,
-    image: "/lovable-uploads/e9aa0fba-8fb7-40d4-8186-de08054030f5.png",
+    image: "/lovable-uploads/aa88e61a-9416-49c0-b690-415b0b8480fc.png",
     color: "bg-arbor-secondary"
   },
   {
