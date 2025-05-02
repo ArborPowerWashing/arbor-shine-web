@@ -29,6 +29,14 @@ const galleryItems = [
     afterImage: "/lovable-uploads/89c0a564-9f64-4e84-828e-f104b1260e78.png",
     category: "Driveway"
   },
+  {
+    id: 4,
+    title: "Window Washing",
+    description: "Crystal clear results every time",
+    beforeImage: "/lovable-uploads/b44cb1d1-7540-4fd1-b6d3-39c0bdcdf6c1.png",
+    afterImage: "/lovable-uploads/b44cb1d1-7540-4fd1-b6d3-39c0bdcdf6c1.png",
+    category: "Window"
+  }
 ];
 
 const Gallery = () => {

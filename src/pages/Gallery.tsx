@@ -48,6 +48,13 @@ const galleryItems = [
     category: "Concrete",
     beforeImage: "/lovable-uploads/89c0a564-9f64-4e84-828e-f104b1260e78.png",
     afterImage: "/lovable-uploads/89c0a564-9f64-4e84-828e-f104b1260e78.png"
+  },
+  {
+    id: 7,
+    title: "Window Washing",
+    category: "Window",
+    beforeImage: "/lovable-uploads/b44cb1d1-7540-4fd1-b6d3-39c0bdcdf6c1.png",
+    afterImage: "/lovable-uploads/b44cb1d1-7540-4fd1-b6d3-39c0bdcdf6c1.png"
   }
 ];
 

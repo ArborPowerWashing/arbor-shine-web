@@ -70,7 +70,7 @@ const services = [
       "Professional tools reach high and difficult windows safely"
     ],
     icon: Wind,
-    image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3",
+    image: "/lovable-uploads/b44cb1d1-7540-4fd1-b6d3-39c0bdcdf6c1.png",
     color: "bg-arbor-dark"
   },
   {
