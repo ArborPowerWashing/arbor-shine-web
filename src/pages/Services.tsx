@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { 
   House, 
@@ -42,21 +41,6 @@ const services = [
     icon: Fence,
     image: "/lovable-uploads/aa88e61a-9416-49c0-b690-415b0b8480fc.png",
     color: "bg-arbor-secondary"
-  },
-  {
-    id: "gutter-cleaning",
-    title: "Gutter Cleaning",
-    description: "Keep your gutters functioning properly with our comprehensive gutter cleaning service. We remove debris, check for proper water flow, and ensure your drainage system is working effectively.",
-    benefits: [
-      "Prevents water damage to foundations and basements",
-      "Reduces risk of roof damage from backed-up water",
-      "Eliminates breeding grounds for pests",
-      "Prevents gutter damage from excessive weight",
-      "Extends the lifespan of your gutter system"
-    ],
-    icon: House,
-    image: "/lovable-uploads/d16ab718-56f8-4000-9958-57fc7233fdc3.png",
-    color: "bg-arbor-accent"
   },
   {
     id: "window-cleaning",

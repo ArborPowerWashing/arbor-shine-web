@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, ArrowRight, Facebook, Instagram, Twitter, Star } from "lucide-react";
 
@@ -72,7 +71,6 @@ const Footer = () => {
               {[
                 "Roof Washing",
                 "Fence Washing",
-                "Gutter Cleaning",
                 "Window Cleaning",
                 "House Washing",
                 "Driveway & Patio Cleaning",

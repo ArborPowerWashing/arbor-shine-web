@@ -27,34 +27,26 @@ const services = [
   },
   {
     id: 3,
-    name: "Gutter Cleaning",
-    description: "Clear debris and buildup from your gutters to ensure proper water flow and prevent damage.",
-    icon: House,
-    color: "bg-arbor-accent",
-    link: "/services#gutter-cleaning"
-  },
-  {
-    id: 4,
     name: "Window Cleaning",
     description: "Professional window cleaning to remove streaks, water spots, and grime for crystal clear views.",
     icon: Wind,
-    color: "bg-arbor-dark",
+    color: "bg-arbor-accent",
     link: "/services#window-cleaning"
   },
   {
-    id: 5,
+    id: 4,
     name: "House Washing",
     description: "Complete exterior cleaning that removes dirt, mold, and mildew to protect your home's appearance.",
     icon: House,
-    color: "bg-arbor-primary",
+    color: "bg-arbor-dark",
     link: "/services#house-washing"
   },
   {
-    id: 6,
+    id: 5,
     name: "Driveway & Patio Cleaning",
     description: "Powerful cleaning for concrete, brick, and stone surfaces to remove stains and restore appearance.",
     icon: Droplet,
-    color: "bg-arbor-secondary",
+    color: "bg-arbor-primary",
     link: "/services#driveway-patio"
   },
 ];
